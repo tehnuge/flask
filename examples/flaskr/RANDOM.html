@@ -1,0 +1,17 @@
+  ----FROM LAYOUT.HTML LINE 6-------
+  <div class="metanav">
+  {% if not session.logged_in %}
+    <a href="{{ url_for('login') }}">log in</a>
+  {% else %}
+    <a href="{{ url_for('logout') }}">log out</a>
+  {% endif %}
+  </div>
+
+
+-----FROM LINES 3 AND 13 SHOW_ENTRIES.HTML----
+    {% if session.logged_in %}
+
+    {% endif %}
+
+            <dt>Title:
+        <dd><input type="text" size="30" name="title">
