@@ -2,12 +2,15 @@
 
                  a minimal blog application
 
+From https://github.com/mitsuhiko/flask/tree/master/examples/flaskr/
 
     ~ What is Flaskr?
 
       A sqlite powered thumble blog application
 
     ~ How do I use it?
+
+NOTE: pip install https://github.com/mitsuhiko/flask/tarball/master
 
       1. edit the configuration in the flaskr.py file or
          export an FLASKR_SETTINGS environment variable
